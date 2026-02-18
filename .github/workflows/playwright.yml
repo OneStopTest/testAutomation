@@ -1,4 +1,4 @@
-name: Playwright BDD Tests
+name: GUI Playwright BDD Cucumber Tests
 
 on:
   push:
@@ -27,3 +27,10 @@ jobs:
 
       - name: Run Cucumber Tests
         run: npm test
+
+      - name: Upload Test Reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cucumber-report
+          path: reports/
