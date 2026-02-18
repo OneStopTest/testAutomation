@@ -1,0 +1,227 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "stamp-duty-calculation-for-the-motor-vehicle;validate-the-stamp-duty-for-the-motor-vehicle",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Validate the stamp duty for the Motor Vehicle",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 716685792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to the motor vehicle stamp duty page",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3539271541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click Check online button",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 423773790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I see Motor Vehicle Duty Calculation Page",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 872112624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I select \"Yes\" radio button",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14460584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter \"2,000\" as the purchase price",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13295041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the Calculate button",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304185999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the Calculation popup with passenger vehicle registration as \"Yes\"",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531776832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see the purchase price as \"2,000\"",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2482124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see the duty payable as \"$60.00\"",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2711833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I should see the Note",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1971250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see the help text",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1632458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see the contact us link",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1659666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click the contact us page, I should see the Contact Us page in a new tab",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2062880707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I validate the print icon and close the Calculation popup",
+            "match": {
+              "location": "steps/stampDutyCalculation.steps.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28292041
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50009458
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "stamp-duty-calculation-for-the-motor-vehicle",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Stamp Duty Calculation for the Motor Vehicle",
+    "tags": [],
+    "uri": "features/stampDutyCalculation.feature"
+  }
+]
